@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TestSite</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        .dropdown-item-danger {
+              color: red;
+            }
+            .card-cover {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+       
+      
+    </style>
+</head>
+<body>
+  
+    <!-- Nav bar -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+              <a class="navbar-brand fs-3" href="#">
+                <img src="../Bootstrap_Example/bootstrap-5.3.0-examples/bootstrap-5.3.0-examples/assets/brand/bootstrap-logo.svg" width="32" height="32" alt=""
+                class="me-1">
+                <span>Test Website</span>
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2  mb-lg-0">
+                  <li class="nav-item me-3 my-2 fs-3 ">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item me-3 my-2 fs-3">
+                    <a class="nav-link" href="#">Features</a>
+                  </li>
+                  
+                  <li class="nav-item me-3 my-2 fs-3">
+                    <a class="nav-link ">FAQs</a>
+                  </li>
+
+                
+
+                  <li class="nav-item me-3 my-2 fs-3 dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <img src="../img/book worm.jpg" alt="" width="40" height="40" class="rounded-circle ">
+                    </a>
+                    <ul class="dropdown-menu shadow" data-bs-theme="light">
+                    <li>
+                        <a href="" class="dropdown-item d-flex gap-2 align-items-center">
+                            <i class="bi bi-person-fill-gear"></i>
+                            <span>Settings</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="dropdown-item d-flex gap-2 align-items-center">
+                            <i class="bi bi-eyeglasses"></i>
+                            <span>About</span>
+                        </a>
+                    </li> 
+                    <li><hr class="dropdown-divider"></li>
+                    <li>
+                        <a href="" class="dropdown-item d-flex gap-2 align-items-center">
+                            <i class="bi bi-box-arrow-down-left"></i>
+                            <span>Log in</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="dropdown-item dropdown-item-danger d-flex gap-2 align-items-center">
+                            <i class="bi bi-box-arrow-in-right"></i>
+                            <span>Log out</span>
+                        </a>
+                    </li>
+
+
+                    </ul>
+                    
+                  </li>
+                </ul>
+                    
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="container px-4 py-5 col-xxl-8 ">
+        <div class="row align-items-center flex-column-reverse flex-lg-row">
+            <div class="col-lg-6 col-10">
+              <h1 class="display-5 fw-bold" >
+                Angle From the Heaven
+              </h1>
+              <p class="my-5" style="font-size: 1.25rem;">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                  Mollitia velit nesciunt quasi cum quo nemo non odit unde 
+                  accusantium enim?
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                  Mollitia velit nesciunt quasi cum quo nemo non odit unde 
+                  accusantium enim
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                  Mollitia velit nesciunt quasi cum quo nemo non odit unde 
+                  accusantium enim
+              </p>
+              <div class=" d-grid gap-2 d-md-flex d-lg-flex justify-content-md-start">
+                <button class="btn btn-primary btn-lg px-4 my-md-2 me-lg-2">Do your Love</button>
+              <button class="btn btn-outline-secondary px-4">Die as Loser</button>
+              </div>
+
+            </div>
+            <div class="col-6">
+                <img src="../img/book worm.jpg" class="d-block img-fluid mx-atuo"  width ="700" height="500">
+            </div>
+        </div>
+    </div>
+
+    <!-- Feature Section -->
+    <div class="container py-5 px-4">
+      <div class="row g-4">
+        <div class="col">
+          <div class="card card-cover h-100 text-bg-dark overflow-hidden rounded-4 shadow-lg" style="background-image: url(../img/ancient.jpg);">
+          <div class="d-flex flex-column h-100 p-5">
+            <h3 class="display-6 fw-bold pt-5 mb-4 mt-5 pb-3 text-white text-shadow-1">Lady , From the Ancient Country </h3>
+            <ul class="d-flex list-unstyled mt-auto "> 
+              <li class="d-flex align-items-center me-3 ms-auto fw-semibold">
+                <i class="bi bi-heart me-2" width="1rem" height="1rem" ></i>
+                <small>Heart</small>
+              </li>
+              <li class="d-flex align-items-center me-3">
+                <i class="bi bi-calendar-date me-2" width="1rem" height="1rem" ></i>
+                <small>1y</small>
+            </ul>
+          </div>
+          
+          </div>
+        </div>
+        <div class="col ">
+          <div class="card card-cover h-100 text-bg-dark overflow-hidden rounded-4 shadow-lg" style="background-image: url(../img/black.jpg);">
+            <div class="d-flex flex-column h-100 p-5">
+              <h3 class="display-6 fw-bold pt-5 mb-4 mt-5 pb-3 text-white text-shadow-1">Rose are always Beautiful , Dont't leave</h3>
+              <ul class="d-flex list-unstyled mt-auto "> 
+                <li class="d-flex align-items-center me-3 ms-auto fw-semibold">
+                  <i class="bi bi-heart me-2" width="1rem" height="1rem" ></i>
+                  <small>Heart</small>
+                </li>
+                <li class="d-flex align-items-center me-3">
+                  <i class="bi bi-calendar-date me-2" width="1rem" height="1rem" ></i>
+                  <small>1y</small>
+              </ul>
+            </div>
+            
+            </div>
+        </div>
+        <div class="col">
+          <div class="card card-cover h-100 text-bg-dark overflow-hidden rounded-4 shadow-lg" style="background-image: url(../img/eain\ chue\ myat.jpg);">
+            <div class="d-flex flex-column h-100 p-5">
+              <h3 class="display-6 fw-bold pt-5 mb-4 mt-5 pb-3 text-white text-shadow-1">Turn of a Deer Eye , Lady</h3>
+              <ul class="d-flex list-unstyled mt-auto "> 
+                <li class="d-flex align-items-center me-3 ms-auto fw-semibold">
+                  <i class="bi bi-heart me-2" width="1rem" height="1rem" ></i>
+                  <small>Heart</small>
+                </li>
+                <li class="d-flex align-items-center me-3">
+                  <i class="bi bi-calendar-date me-2" width="1rem" height="1rem" ></i>
+                  <small>1y</small>
+              </ul>
+            </div>
+            
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Fotter -->
+    <div class="container">
+      <footer class="border-top d-flex align-items-center justify-content-between flex-wrap py-3 my-3">
+        <div class="d-flex align-items-center">
+          <i class="bi bi-c-circle text-body-secondary mb-3">
+            <span class="text-decoration-none ms-1 text-body-secondary mb-3">2023 Htet Aung HLaing</span>
+          </i>
+        </div>
+        <ul class="nav d-flex list-unstyled justify-content-end">
+          <li> <i class="bi bi-twitter  ms-3" width="32" height="32"></i>
+          </li>
+          <li> <i class="bi bi-facebook ms-3" width="32" height="32"></i>
+          </li>
+          <li> <i class="bi bi-instagram ms-3" width="32" height="32"></i>
+          </li>
+        </ul>
+      </footer>
+    </div>
+
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>
